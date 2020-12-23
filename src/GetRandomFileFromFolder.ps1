@@ -1,4 +1,4 @@
-$FolderPath = "C:\Users\pbiswaranjan\Downloads\*";
+$FolderPath = "D:\Downloads\*";
 $Files = Get-ChildItem -Path $FolderPath -Recurse -File;
 $RandomFile = $Files | Get-Random -Count 1;
 
